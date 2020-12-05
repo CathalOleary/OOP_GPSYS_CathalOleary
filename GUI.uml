@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>GPSYS.GUI</OriginalElement>
+  <nodes>
+    <node x="337.0" y="480.0">GPSYS.GUI.MainMenuGUI</node>
+    <node x="0.0" y="0.0">GPSYS.GUI.RegPatientGUI</node>
+    <node x="465.0" y="22.0">GPSYS.GUI.MakeAppointementGUI</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GPSYS.GUI.MakeAppointementGUI" target="GPSYS.GUI.MainMenuGUI">
+      <point x="111.25" y="193.0" />
+      <point x="798.75" y="460.0" />
+      <point x="543.5" y="460.0" />
+      <point x="88.5" y="-160.0" />
+    </edge>
+    <edge source="GPSYS.GUI.RegPatientGUI" target="GPSYS.GUI.MainMenuGUI">
+      <point x="111.25" y="215.0" />
+      <point x="333.75" y="450.0" />
+      <point x="425.5" y="450.0" />
+      <point x="-29.5" y="-160.0" />
+    </edge>
+    <edge source="GPSYS.GUI.MainMenuGUI" target="GPSYS.GUI.RegPatientGUI">
+      <point x="-88.5" y="-160.0" />
+      <point x="366.5" y="460.0" />
+      <point x="111.25" y="460.0" />
+      <point x="-111.25" y="215.0" />
+    </edge>
+    <edge source="GPSYS.GUI.MainMenuGUI" target="GPSYS.GUI.MakeAppointementGUI">
+      <point x="29.5" y="-160.0" />
+      <point x="484.5" y="450.0" />
+      <point x="576.25" y="450.0" />
+      <point x="-111.25" y="193.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="458.1666666666665" y="396.33333333333326" />
+  <SelectedNodes>
+    <node>GPSYS.GUI.MainMenuGUI</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
