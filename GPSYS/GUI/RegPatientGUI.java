@@ -11,6 +11,10 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
+/**
+ * This the class that creates the GUI for the Patients window
+ * @author Cathal Oleary
+ */
 
 public class RegPatientGUI extends JFrame{
 

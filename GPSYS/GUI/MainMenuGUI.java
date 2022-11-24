@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
+ * This the class that creates the GUI for the main menu window
  * @author Cathal Oleary
  */
 
