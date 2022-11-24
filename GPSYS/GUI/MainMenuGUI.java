@@ -181,7 +181,7 @@ public class MainMenuGUI extends JFrame implements ActionListener {
             setVisible(false);
         }
 
-        //I ran out of time to make this GUIs and i wasn't shore how to display/how They would look.
+        /**I ran out of time to make this GUIs and i wasn't shore how to display/how They would look.
         /*String AdminMenu;
 
         AdminMenu=event.getActionCommand();
@@ -192,10 +192,6 @@ public class MainMenuGUI extends JFrame implements ActionListener {
             new YearlyRevenueGUI();
         */
     }
-
-    /**
-     * The last section of code is used to
-     */
 
     private void showPatientData() {
         String text="Outputting all of the patients information:\n\n";
