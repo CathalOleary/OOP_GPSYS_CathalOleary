@@ -8,14 +8,29 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-public class TestGPSYS {
+/**
+ * This class is the driver for the application.
+ * The code here creates The Doctor Array which there will only be 4 Doctors
+ * it also creates the Patient and Appointment array lists.
+ * @author Cathal Oleary
+ */
+
+public class TestGPSYS extends DateChooser {
 
     //similar globals to Math.PI
     public static Doctor[] Doctors=new Doctor[4];
     public static ArrayList<Patient>Patients=new ArrayList<>();
     public static ArrayList<Appointment>Appointments=new ArrayList<>();
 
-    //TestGPSYS.Patients.add(patient object);
+    public TestGPSYS(JFrame jFrame) {
+        super(jFrame);
+    }
+
+    /**
+     * This Method creates the 4 Doctor objects and puts them into the array with there info.
+     * It also Creates 2 example/test Patients and appointments with the need info also.
+     * @param args
+     */
 
     public static void main(String[] args) {
 

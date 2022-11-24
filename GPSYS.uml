@@ -3,65 +3,68 @@
   <ID>JAVA</ID>
   <OriginalElement>GPSYS</OriginalElement>
   <nodes>
-    <node x="267.30357142857144" y="0.0">GPSYS.Images</node>
-    <node x="46.000000000000014" y="123.201171875">GPSYS.GUI</node>
-    <node x="63.98214285714286" y="13.201171875">GPSYS.Ojects</node>
-    <node x="78.30357142857144" y="213.201171875">GPSYS.Driver</node>
+    <node x="266.5" y="0.0">GPSYS.Images</node>
+    <node x="96.59523809523812" y="223.201171875">GPSYS.GUI</node>
+    <node x="70.25000000000001" y="13.201171875">GPSYS.Ojects</node>
+    <node x="30.0" y="123.201171875">GPSYS.Driver</node>
   </nodes>
   <notes />
   <edges>
     <edge source="GPSYS.GUI" target="GPSYS.Driver">
-      <point x="24.0" y="15.0" />
-      <point x="-20.57142857142857" y="-15.0" />
+      <point x="-51.42857142857143" y="-15.0" />
+      <point x="105.16666666666669" y="203.201171875" />
+      <point x="90.0" y="203.201171875" />
+      <point x="-12.0" y="15.0" />
     </edge>
     <edge source="GPSYS.GUI" target="GPSYS.Ojects">
-      <point x="-40.0" y="-15.0" />
-      <point x="66.00000000000001" y="93.201171875" />
-      <point x="108.98214285714286" y="93.201171875" />
-      <point x="-27.0" y="15.0" />
+      <point x="51.42857142857143" y="-15.0" />
+      <point x="208.02380952380955" y="203.201171875" />
+      <point x="206.5" y="203.201171875" />
+      <point x="206.5" y="103.201171875" />
+      <point x="205.25" y="103.201171875" />
+      <point x="63.0" y="15.0" />
     </edge>
     <edge source="GPSYS.Driver" target="GPSYS.Driver">
-      <point x="36.0" y="15.0" />
-      <point x="186.30357142857144" y="273.201171875" />
-      <point x="48.303571428571445" y="273.201171875" />
-      <point x="48.303571428571445" y="220.701171875" />
+      <point x="-36.0" y="15.0" />
+      <point x="66.0" y="183.201171875" />
+      <point x="0.0" y="183.201171875" />
+      <point x="0.0" y="130.701171875" />
       <point x="-72.0" y="-7.5" />
     </edge>
     <edge source="GPSYS.Ojects" target="GPSYS.Ojects">
       <point x="-45.0" y="15.0" />
-      <point x="90.98214285714286" y="73.201171875" />
-      <point x="33.98214285714286" y="73.201171875" />
-      <point x="33.98214285714286" y="20.701171875" />
+      <point x="97.25000000000001" y="73.201171875" />
+      <point x="40.250000000000014" y="73.201171875" />
+      <point x="40.250000000000014" y="20.701171875" />
       <point x="-72.0" y="-7.5" />
     </edge>
     <edge source="GPSYS.Driver" target="GPSYS.Ojects">
-      <point x="61.71428571428572" y="-15.0" />
-      <point x="212.01785714285717" y="193.201171875" />
-      <point x="198.5" y="193.201171875" />
-      <point x="63.0" y="15.0" />
+      <point x="-48.0" y="-15.0" />
+      <point x="54.0" y="93.201171875" />
+      <point x="115.25000000000001" y="93.201171875" />
+      <point x="-27.0" y="15.0" />
     </edge>
     <edge source="GPSYS.Driver" target="GPSYS.GUI">
-      <point x="-61.71428571428572" y="-15.0" />
-      <point x="88.58928571428572" y="193.201171875" />
-      <point x="82.00000000000001" y="193.201171875" />
-      <point x="-24.0" y="15.0" />
+      <point x="36.0" y="15.0" />
+      <point x="138.0" y="203.201171875" />
+      <point x="139.45238095238096" y="203.201171875" />
+      <point x="-17.142857142857153" y="-15.0" />
     </edge>
     <edge source="GPSYS.GUI" target="GPSYS.GUI">
-      <point x="-48.0" y="15.0" />
-      <point x="58.000000000000014" y="173.201171875" />
-      <point x="26.0" y="173.201171875" />
-      <point x="26.0" y="138.201171875" />
+      <point x="0.0" y="15.0" />
+      <point x="156.59523809523813" y="273.201171875" />
+      <point x="76.59523809523812" y="273.201171875" />
+      <point x="76.59523809523812" y="238.201171875" />
       <point x="-60.0" y="-0.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="206.0" y="142.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="229.0" y="122.0" />
   <SelectedNodes />
   <Categories>
-    <Category>Fields</Category>
     <Category>Constructors</Category>
-    <Category>Methods</Category>
     <Category>Properties</Category>
     <Category>Inner Classes</Category>
+    <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>

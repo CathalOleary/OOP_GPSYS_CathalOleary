@@ -3,33 +3,34 @@
   <ID>JAVA</ID>
   <OriginalElement>GPSYS.Driver</OriginalElement>
   <nodes>
-    <node x="4.0" y="0.0">GPSYS.Driver.DateChooser.ButtonEventHandler</node>
-    <node x="0.0" y="104.0">GPSYS.Driver.DateChooser</node>
-    <node x="289.0" y="0.0">GPSYS.Driver.TestGPSYS</node>
+    <node x="34.5" y="0.0">GPSYS.Driver.DateChooser.ButtonEventHandler</node>
+    <node x="0.0" y="384.0">GPSYS.Driver.TestGPSYS</node>
+    <node x="8.5" y="80.0">GPSYS.Driver.DateChooser</node>
   </nodes>
   <notes />
   <edges>
     <edge source="GPSYS.Driver.DateChooser" target="GPSYS.Driver.DateChooser.ButtonEventHandler">
-      <point x="-81.33333333333331" y="-149.5" />
-      <point x="40.666666666666686" y="79.0" />
-      <point x="43.33333333333333" y="79.0" />
-      <point x="-78.66666666666667" y="27.0" />
+      <point x="-81.33333333333331" y="-127.0" />
+      <point x="49.166666666666686" y="55.0" />
+      <point x="66.5" y="55.0" />
+      <point x="-64.0" y="15.0" />
     </edge>
     <edge source="GPSYS.Driver.DateChooser.ButtonEventHandler" target="GPSYS.Driver.DateChooser">
-      <point x="78.66666666666669" y="27.0" />
-      <point x="200.66666666666669" y="79.0" />
-      <point x="203.33333333333331" y="79.0" />
-      <point x="81.33333333333331" y="-149.5" />
+      <point x="64.0" y="15.0" />
+      <point x="194.5" y="55.0" />
+      <point x="211.83333333333331" y="55.0" />
+      <point x="81.33333333333331" y="-127.0" />
+    </edge>
+    <edge source="GPSYS.Driver.TestGPSYS" target="GPSYS.Driver.DateChooser">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="127.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="150.0" />
-  <SelectedNodes>
-    <node>GPSYS.Driver.DateChooser</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="1.0" x="566.5" y="206.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
-    <Category>Methods</Category>
     <Category>Properties</Category>
     <Category>Inner Classes</Category>
   </Categories>
